@@ -41,12 +41,10 @@
                   <td>{{ employee.address }}</td>
                   <td>{{ employee.departments }}</td>
                   <td>
-                    <router-link
-                      class="btn btn-info btn-sm"
-                      :to="{
+                    <router-link  :to="{
                         name: 'EmployeesEdit',
                         params: { id: employee.id },
-                      }"
+                      }" class="btn btn-info btn-sm"
                       >Edit</router-link
                     >
                     <button

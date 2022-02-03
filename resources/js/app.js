@@ -11,9 +11,9 @@ import {routes}  from "./routes";
 Vue.use(VueRouter);
 
 
-Vue.component( "employees", require("./components/employees/index.vue"),
-               "employees-create", require("./components/employees/create.vue")
-
+Vue.component(
+            "employees", require("./components/employees/index.vue"),
+            "employees-create", require("./components/employees/create.vue")
 );
 
 
